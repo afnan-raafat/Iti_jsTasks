@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Day 7 </title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="form">
+        <h1>User Data:</h1>
+        <form id="userForm">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="age">Age:</label><br>
+            <input type="number" id="age" name="age" required><br><br>
+
+            <label>Gender:</label><br>
+            <div class="gender-images">
+                <input type="radio" id="male" name="gender" value="male" required>
+                <label for="male">
+                    <img src="./boy.jpg" alt="Boy" id="maleImage">
+                </label>
+
+                <input type="radio" id="female" name="gender" value="female" required>
+                <label for="female">
+                    <img src="./girl.jpg" alt="Woman" id="femaleImage">
+                </label>
+            </div><br><br>
+
+            <label for="color">Favorite Color:</label>
+            <select id="color" name="color" class="rr">
+                <option value="red">Red</option>
+                <option value="blue">Blue</option>
+                <option value="green">Green</option>
+            </select><br><br>
+
+            <input type="submit" value="Submit" class="btn">
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

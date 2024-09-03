@@ -1,0 +1,33 @@
+#stopwatch {
+    padding-top: 50px;
+    font-family: cursive, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#display {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+button {
+    font-family: cursive, sans-serif;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+}
+
+button:disabled {
+    background-color: #949090;
+    cursor: not-allowed;
+}
+span{
+    color: #1c66ee;
+    font-size: 60px;
+    border-radius: 12%;
+}

@@ -1,0 +1,30 @@
+
+     .circles {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         gap: 20px;
+     }
+     .circle {
+         width: 100px;
+         height: 100px;
+         border-radius: 50%;
+         background-color: #ddd;
+         border: 2px solid #000;
+     }
+     .red.active {
+         background-color: red;
+     }
+     .yellow.active {
+         background-color: yellow;
+     }
+     .green.active {
+         background-color: green;
+     }
+     .message {
+         text-align: center;
+         margin-top: 20px;
+         font-size: 24px;
+         font-weight: bold;
+     }
+ 

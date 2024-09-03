@@ -1,0 +1,46 @@
+  img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+  }
+
+*{
+    background-color: rgb(219, 184, 163);
+    
+}
+
+.form{
+    padding-left: 20%;
+    padding-top: 10px;
+    font-size:20px;
+    color: rgb(8, 8, 8);
+    font-size: 25px;
+}
+h1{
+    color: rgb(45, 81, 112);
+}
+
+.btn{
+    background-color:  rgb(45, 81, 112);
+    font-size: 30px;
+    color:#fff ;
+    width: 150px;
+      border-radius: 4vw;
+     
+
+}
+
+.rr{
+     font-size: 20px;
+ color:rgb(45, 81, 112) ;
+}
+
+
+     .welcome-container {
+       text-align: center;
+       margin-top: 50px;
+   }
+   #genderImage {
+       width: 100px;
+       height: 100px;
+   }

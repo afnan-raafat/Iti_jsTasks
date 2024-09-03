@@ -1,0 +1,39 @@
+  table {
+      width: 100%;
+      border-collapse: collapse;
+      background-color: antiquewhite;
+      font-size: 20px;
+      margin-top: 3%;
+  }
+  table,
+  th,
+  td { 
+      border: 1px solid black;
+  }
+  th,
+  td {
+      padding: 8px;
+      text-align: left;
+  }
+  th {
+    
+      background-color: #6d0c0c;
+      color: #f2f2f2;
+  }
+  .btn {
+      background-color: green;
+      color: white;
+      border: none;
+      padding: 5px 10px;
+      text-align: center;
+      display: inline-block;
+      font-size: 14px;
+      cursor: pointer;
+      border-radius: 20px;
+  }
+  #loadUsers{
+    background-color: green;
+    font-size: 20px;
+      border-radius: 25px;
+    color: #f2f2f2;
+  }

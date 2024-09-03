@@ -1,0 +1,136 @@
+/* /* .circles-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: gray;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+.text-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+} */
+
+
+/*  */
+ /* body { */
+    /* font-family: Arial, sans-serif; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* height: 100vh; */
+    /* margin: 0; */
+    /* background-color: #fff; */
+/* } */
+/*  */
+/* .container { */
+    /* text-align: center; */
+/* } */
+/*  */
+/* .btn { */
+    /* padding: 15px 20px; */
+    /* font-size: 16px; */
+    /* margin: 10px; */
+    /* cursor: pointer; */
+    /* border: none; */
+    /* color: white; */
+    /* border-radius: 10px; */
+/* } */
+/*  */
+/* .success { */
+    /* background-color: green; */
+/* } */
+/*  */
+/* .error { */
+    /* background-color: red; */
+/* } */
+/*  */
+/* .alert { */
+    /* margin-top: 20px; */
+    /* padding: 20px; */
+    /* border-radius: 5px; */
+    /* font-size: 18px; */
+    /* width: 300px; */
+    /* text-align: center; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+/* } */
+/*  */
+/* .hidden { */
+    /* display: none; */
+/* } */
+/*  */
+/* .success-message { */
+    /* color: green; */
+/* } */
+/*  */
+/* .error-message { */
+    /* color: red; */
+/* } */
+/* i{              */
+    /* font-size: 40px; */
+/*  */
+/* } */
+
+/* ///////////////////////////STYLE 2 //////////////////////////////////////////// */
+    
+    .gallary{
+width: 400px;
+display: flex;
+overflow-x: scroll;
+}
+.gallary div{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    padding: 10px;
+    flex: none;
+}
+.gallary div img{
+    width: 100%;
+     transition: transform 0.5s;
+}
+.gallary::-webkit-scrollbar{
+    display: none;
+}
+.wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100% auto;
+
+}
+#next,#back{
+    width: 10%;
+    cursor: pointer;
+    margin:40px;
+    border-radius: 50%;
+
+}
+.gallary div img:hover{
+    filter:grayscale(0) ;
+    cursor: pointer;
+    transform: scale(1.1);
+
+}
+    
